@@ -1,2 +1,43 @@
 # Opencv-Python-Computer-Vision
-Various techniques implemented used in Computer Vision Python.
+
+### Color-Based-CBIR-System
+
+##### Steps taken to implement a CBIR system:
+1. Define your image descriptor and create imagebase for training.
+2. Train your imagebase over the defined descriptor and save feature vector.
+3. Create a search file to search/rank the images when tested against query.
+4. Create testing file to test against saved feature vector for imagebase.
+
+This folder includes files:
+- featureVector.py
+This file contains code for color histogram feature extraction, that return a numpy vector.
+- training.py
+This file trains imagebase over our featureVector and save the output in **trainingdata.pickle**.
+- search.py
+This file is used with testing where it helps in searching/matching featureVectors for test images and trained images.
+- testing.py
+This file is used for testing our system.
+
+
+### 4 Point Perspective Transform
+
+##### Steps to find the maximum sized 4 point image (considering only (possibility) rectangle):
+1. Find edges of the image using canny edge detection.
+2. Supply the edges to the countour function to find all possible contours.
+3. Sort these countours (coordinates) in non-increasing fashion.
+4. Check for 4 point countour, from the start of the returned list of countours.
+5. Pass these 4 points to transform function.
+
+##### Steps involved:
+1. First of all take image and 4 points you need to transform over a perspective space.
+2. Order those points in following fashion - [top-left, top-right, bottom-right, bottom-left] - using basic coordinate math.
+3. Calculate the maxWidth and maxHeight for the perspective window, to fit the 4 point image.
+4. Calculate perspective matrix (3x3) over given image and points.
+5. Wrap the perspective over the perspective window.
+
+
+### 
+
+
+
+###### Special thanks to [Adrian Rosebrock](https://www.pyimagesearch.com/about/) for an amazing tutorial and giving inspiration to work on computer vision.
