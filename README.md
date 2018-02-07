@@ -30,14 +30,40 @@ This file is used for testing our system.
 
 ##### Steps involved:
 1. First of all take image and 4 points you need to transform over a perspective space.
-2. Order those points in following fashion - [top-left, top-right, bottom-right, bottom-left] - using basic coordinate math.
+2. Order those points in following fashion [top-left, top-right, bottom-right, bottom-left] using basic coordinate math.
 3. Calculate the maxWidth and maxHeight for the perspective window, to fit the 4 point image.
 4. Calculate perspective matrix (3x3) over given image and points.
 5. Wrap the perspective over the perspective window.
 
 
-### 
+### Video Read/Write
 
+This file contains code for how to read/capture video from webcam, and then how to save it in (avi) extension (most stable using opencv). It uses _VideoCapture_ and _VideoWriter_ classes to perform these operation.
+
+
+### Screenshot
+
+This file implements PyAutoGUI functionality to capture screenshot whenever this program runs. It saves the result in the current folder.
+
+
+### Paint Application
+
+This app implements only paint brush operation. It uses _createTrackbar_ and _getTrackbarPos_ methods available in opencv3 to adjust colors and size of paint brush. It uses _setMouseCallback_ to allow mouse events to happen.
+
+
+### Opencv Symbol Drawing
+
+It shows code on how to make use of drawing functions in opencv to achieve a particular figure (here, opencv symbol). It makes use of _ellipse_ method of cv2 and by defining proper parameters to angle and rotation, symbol drawing can be achieved.
+
+
+### Detect Skin
+
+Proper parameters (lower and upper limit for HSV color) are given on how to detect skin (asian) using _inRange_ and _bitwise__and_ method.
+
+
+### Color Transfer
+
+It contains code for famous [Reinhard](www.cs.utah.edu/~shirley/papers/ColorTransfer.pdf) algorithm, that uses L*a*b* (Lightness) color-space and simple mean and standard deviation to transfer color. Using histogram approach can be very complex for huge images but this executes within seconds.
 
 
 ###### Special thanks to [Adrian Rosebrock](https://www.pyimagesearch.com/about/) for an amazing tutorial and giving inspiration to work on computer vision.
