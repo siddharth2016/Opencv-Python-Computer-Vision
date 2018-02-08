@@ -66,4 +66,9 @@ Proper parameters (lower and upper limit for HSV color) are given on how to dete
 It contains code for famous Reinhard algorithm (www.cs.utah.edu/~shirley/papers/ColorTransfer.pdf), that uses L*a*b* (Lightness) color-space and simple mean and standard deviation to transfer color. Using histogram approach can be very complex for huge images but this executes within seconds.
 
 
+### Image Slide Show
+
+It shows how to achieve slide show functionality using opencv, one can also try to save each image (result in slide show) in a video format to view blending of images. It makes use of _addWeighted()_ method to view transitions.
+
+
 ###### Special thanks to [Adrian Rosebrock](https://www.pyimagesearch.com/about/) for an amazing tutorial and giving inspiration to work on computer vision.
