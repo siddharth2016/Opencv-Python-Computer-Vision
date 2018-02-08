@@ -71,4 +71,9 @@ It contains code for famous Reinhard algorithm (www.cs.utah.edu/~shirley/papers/
 It shows how to achieve slide show functionality using opencv, one can also try to save each image (result in slide show) in a video format to view blending of images. It makes use of _addWeighted()_ method to view transitions.
 
 
+### Multiple Color Detection Simultaneously
+
+When executed, this file can detect blue, green and red color simultaneously in a video (webcam extracted). If facing problems, try to change values in (blower-bupper, glower-gupper, rlower-rupper) as per your needs.
+
+
 ###### Special thanks to [Adrian Rosebrock](https://www.pyimagesearch.com/about/) for an amazing tutorial and giving inspiration to work on computer vision.
