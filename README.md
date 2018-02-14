@@ -76,4 +76,15 @@ It shows how to achieve slide show functionality using opencv, one can also try 
 When executed, this file can detect blue, green and red color simultaneously in a video (webcam extracted). If facing problems, try to change values in (blower-bupper, glower-gupper, rlower-rupper) as per your needs.
 
 
+### Dynamic Canny Edge Detection
+
+Stages involved in Canny Edge detection:
+- Noise Reduction
+- Gradient Separation
+- Non-Maximum Suppression
+- Thresholding
+
+Here, the file executes for a single image window and shows how canny edge detection results varies for different values using a trackbar application.
+
+
 ###### Special thanks to [Adrian Rosebrock](https://www.pyimagesearch.com/about/) for an amazing tutorial and giving inspiration to work on computer vision.
