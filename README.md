@@ -63,7 +63,7 @@ Proper parameters (lower and upper limit for HSV color) are given on how to dete
 
 ### Color Transfer
 
-It contains code for famous Reinhard algorithm (www.cs.utah.edu/~shirley/papers/ColorTransfer.pdf), that uses L*a*b* (Lightness) color-space and simple mean and standard deviation to transfer color. Using histogram approach can be very complex for huge images but this executes within seconds.
+It contains code for famous Reinhard algorithm (www.cs.utah.edu/~shirley/papers/ColorTransfer.pdf), that uses L*a*b* (Lightness) color-space and simple mean and standard deviation to transfer color from one image to another. Using histogram approach can be very complex for large sized images but this executes within seconds for any sized image.
 
 
 ### Image Slide Show
