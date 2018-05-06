@@ -87,4 +87,16 @@ Stages involved in Canny Edge detection:
 Here, the file executes for a single image window and shows how canny edge detection results varies for different values using a trackbar application.
 
 
+### Brocade Naruto
+
+This python script allows user to give a fancy look to your image. Here i have used Naruto's image as an example. It involves the following steps to write python script:
+
+1. Import the required libraries.
+2. Define class Brocade, that will contain our kernel and main function definition.
+3. Then call the main function, if it is inside the same script.
+
+* Result
+
+![Result](naruto_brocaded.png)
+
 ###### Special thanks to [Adrian Rosebrock](https://www.pyimagesearch.com/about/) for an amazing tutorial and giving inspiration to work on computer vision.
