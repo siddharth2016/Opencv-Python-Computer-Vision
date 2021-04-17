@@ -100,4 +100,6 @@ ENV/
 # mypy
 .mypy_cache/
 
+# personal
 .vscode
+.DS_Store
