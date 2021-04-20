@@ -5,10 +5,14 @@ import numpy as np
 
 draw = False
 window_name = "Paint Brush Application"
+color_win_position = [(400, 30), (490,90)]
 bgr_track = {'B': 0, 'G': 0, 'R': 0}
 
 img = np.zeros((512,512,3), np.uint8)
 cv2.namedWindow(window_name)
+
+# Initial color window, showing black
+cv2.rectangle(img, color_win_position[0], color_win_position[1], (0,0,0), -1)
 
 font = cv2.FONT_HERSHEY_SIMPLEX
 img = cv2.putText(img, "R: ", (10, 30), font, 0.5, (255,255,255), 1)
@@ -73,4 +77,10 @@ while(1):
     key = cv2.waitKey(1) & 0xff
     if key==ord('q'):
         break
+
+    b = cv2.getTrackbarPos("B", window_name)
+    g = cv2.getTrackbarPos("G", window_name)
+    r = cv2.getTrackbarPos("R", window_name)
+    cv2.rectangle(img, color_win_position[0], color_win_position[1], (b,g,r), -1)
+
 cv2.destroyAllWindows()
