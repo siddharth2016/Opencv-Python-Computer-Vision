@@ -12,7 +12,7 @@ length = len(images)
 
 result = np.zeros((360,360,3), np.uint8)
 i = 1
-count = 0
+
 a = 1.0     # alpha
 b = 0.0     # beta
 img = cv2.imread(dst + images[i])
