@@ -74,6 +74,8 @@ It contains code for famous Reinhard algorithm (www.cs.utah.edu/~shirley/papers/
 
 It shows how to achieve slide show functionality using opencv, one can also try to save each image (result in slide show) in a video format to view blending of images. It makes use of _addWeighted()_ method to view transitions.
 
+You can check [this](https://chandraji.dev/how-to-make-a-slideshow-using-opencv) blog for more information on the approach taken.
+
 
 ### Multiple Color Detection Simultaneously
 
