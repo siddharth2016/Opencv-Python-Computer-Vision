@@ -57,6 +57,8 @@ You can check [this](https://chandraji.dev/how-to-create-a-paint-brush-applicati
 
 It shows code on how to make use of drawing functions in opencv to achieve a particular figure (here, opencv symbol). It makes use of _ellipse_ method of cv2 and by defining proper parameters to angle and rotation, symbol drawing can be achieved.
 
+You can check [this](https://chandraji.dev/lets-draw-opencv-logo-using-opencv) blog for more information on the approach taken.
+
 
 ### Detect Skin
 
@@ -97,7 +99,7 @@ This python script allows user to give a fancy look to your image. Here i have u
 2. Define class Brocade, that will contain our kernel and main function definition.
 3. Then call the main function, if it is inside the same script.
 
-You can check [this](https://chandraji.dev/brocading-naruto-a-computer-vision-activity) blog for more info on brocade naruto.
+You can check [this](https://chandraji.dev/brocading-naruto-a-computer-vision-activity) blog for more information on the approach taken.
 
 * Result
 
