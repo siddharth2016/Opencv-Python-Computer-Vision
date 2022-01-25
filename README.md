@@ -50,6 +50,8 @@ This file implements PyAutoGUI functionality to capture screenshot whenever this
 
 This app implements only paint brush operation. It uses _createTrackbar_ and _getTrackbarPos_ methods available in opencv3 to adjust colors and size of paint brush. It uses _setMouseCallback_ to allow mouse events to happen.
 
+You can check [this](https://chandraji.dev/how-to-create-a-paint-brush-application-using-opencv) blog for more information on paint application.
+
 
 ### Opencv Symbol Drawing
 
