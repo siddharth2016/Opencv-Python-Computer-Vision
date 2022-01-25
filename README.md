@@ -1,5 +1,7 @@
 # Opencv-Python-Computer-Vision
 
+Check out [this](https://chandraji.dev/series/computer-vision) blog series for the updates on my OpenCV projects.
+
 ### Color-Based-CBIR-System
 
 ##### Steps taken to implement a CBIR system:
