@@ -95,6 +95,8 @@ This python script allows user to give a fancy look to your image. Here i have u
 2. Define class Brocade, that will contain our kernel and main function definition.
 3. Then call the main function, if it is inside the same script.
 
+You can check [this](https://chandraji.dev/brocading-naruto-a-computer-vision-activity) blog for more info on brocade naruto.
+
 * Result
 
 ![Result](naruto_brocaded.png)
